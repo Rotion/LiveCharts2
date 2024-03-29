@@ -11,9 +11,13 @@
 
   <ItemGroup>
     <AvaloniaXaml Remove="Platforms\**" />
+    <AvaloniaXaml Remove="Windows\**" />
     <Compile Remove="Platforms\**" />
+    <Compile Remove="Windows\**" />
     <EmbeddedResource Remove="Platforms\**" />
+    <EmbeddedResource Remove="Windows\**" />
     <None Remove="Platforms\**" />
+    <None Remove="Windows\**" />
   </ItemGroup>
 
   <ItemGroup>
